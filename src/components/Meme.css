@@ -1,0 +1,35 @@
+div.input-fields{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4rem;
+
+}
+
+
+div.input-fields>input{
+    padding: 1.5rem;
+    width: 50%;
+    border-radius: 1rem;
+    margin: 2rem;
+    font-size: 1.5rem;
+
+}
+
+input.submit-button{
+    padding: 1.5rem;
+    width: 60%;
+    margin: 0rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-image: linear-gradient(to right,purple,rgb(205, 3, 205));
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+
+form.meme-input{
+    text-align: center;
+}

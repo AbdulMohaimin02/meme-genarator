@@ -4,13 +4,15 @@ import troll from "../images/troll-face.png"
 
 export default function Header(){
     return(
-        <div className="header">
+        // Always make sure that your HTML is semantic
+
+        <header className="header">
             <div className="logo-group">
                 <img src={troll} alt="troll face" />
-                <h1>Meme Generator</h1>
+                <h2>Meme Generator</h2>
             </div>
             
             <h3>React Course - Project 3</h3>
-        </div>
+        </header>
     );
 }

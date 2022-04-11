@@ -1,4 +1,4 @@
-div.header{
+header.header{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,6 +28,8 @@ h3{
     padding:2rem ;
 }
 
-.logo-group>h1{
+.logo-group>h2{
     padding-left: 1rem;
+    font-size: 2rem;
 }
+
