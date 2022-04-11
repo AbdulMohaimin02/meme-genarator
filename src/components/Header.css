@@ -1,0 +1,33 @@
+div.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right,purple,rgb(205, 3, 205));
+    height: 7rem;
+    
+}
+
+
+div.logo-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3rem;
+    color: white;
+}
+
+
+.logo-group>img{
+    width: 100px;
+    /* padding-left: 1rem; */
+}
+
+h3{
+    color: white;
+    padding:2rem ;
+}
+
+.logo-group>h1{
+    padding-left: 1rem;
+}
