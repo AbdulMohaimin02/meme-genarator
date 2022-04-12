@@ -30,6 +30,14 @@ input.submit-button{
 }
 
 
-form.meme-input{
+div.meme-input{
     text-align: center;
+}
+
+.meme-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 2rem;
 }
